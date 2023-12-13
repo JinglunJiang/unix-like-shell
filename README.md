@@ -111,15 +111,15 @@ The Unix-like-shell (`msh`) supports the following built-in commands:
 - **`bg <job>`**:
   Resumes the specified background job. <job> can be the job ID (preceded by %) or the process ID.
 
-- **`fg <job>`**:`
+- **`fg <job>`**:
   Resumes the specified foreground job, waiting for its completion. <job> can be the job ID (preceded by %) or the process ID.
 
--**`kill <signal> <job>`**:
-Sends a signal to the specified job. <signal> is the signal number, and <job> can be the job ID (preceded by %) or the process ID.
+- **`kill <signal> <job>`**:
+  Sends a signal to the specified job. <signal> is the signal number, and <job> can be the job ID (preceded by %) or the process ID.
 
-Example:
+  Example:
 
-```bash
-kill 9 %2  # Sends SIGKILL to the job with ID 2
+  ```bash
+  kill 9 %2  # Sends SIGKILL to the job with ID 2
 
-```
+  ```
