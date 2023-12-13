@@ -74,7 +74,7 @@ gcc -I./include/ -o ./bin/msh src/*.c
 7. void exit_shell(msh_t \*shell);
    This function ensures that all background jobs have completed before exiting the shell. It frees allocated resources, including jobs and history.
 
-### Built-in Commands### Built-in Functions
+### Built-in Commands
 
 The Unix-like-shell (`msh`) supports the following built-in commands:
 
