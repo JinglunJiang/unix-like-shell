@@ -34,6 +34,7 @@ gcc -I./include/ -o ./bin/msh src/*.c
 
 ### Project Structure
 
+```
 .
 ├── bin # Executable directory
 ├── data # Auxiliary data files and test data
@@ -48,6 +49,8 @@ gcc -I./include/ -o ./bin/msh src/*.c
 │ ├── msh.c
 │ └── shell.c
 └── tests # Testcases
+
+```
 
 ## Functions
 
